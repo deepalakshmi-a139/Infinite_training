@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Product_Assignment.Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Product_Assignment.Default" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fdf2f8; 
+            background-color: lavenderblush;
             margin: 0;
             padding: 0;
         }
@@ -18,7 +18,7 @@
             height: 100vh;
         }
         .container {
-            background: #ffffff;
+            background: white;
             padding: 25px;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -27,22 +27,22 @@
         }
         h2 {
             margin-bottom: 20px;
-            color: #d63384; 
+            color: deeppink;
         }
         #ddl_Product {
             width: 100%;
             padding: 8px;
             margin-bottom: 15px;
-            border: 1px solid #ccc;
+            border: 1px solid gray;
             border-radius: 5px;
         }
         #img_Product {
-            border: 1px solid #ddd;
+            border: 1px solid lightgray;
             border-radius: 6px;
             margin-bottom: 15px;
         }
         #btnGetPrice {
-            background-color: #d63384;
+            background-color: hotpink;
             color: white;
             border: none;
             padding: 10px 18px;
@@ -53,13 +53,13 @@
             margin: 0 auto;
         }
         #btnGetPrice:hover {
-            background-color: #a61c5d;
+            background-color: crimson;
         }
         #lblPrice {
             display: block;
             margin-top: 12px;
             font-size: 16px;
-            color: #444;
+            color: dimgray;
             font-weight: bold;
         }
     </style>
