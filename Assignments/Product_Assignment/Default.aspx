@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fdf2f8; /* soft pink */
+            background-color: #fdf2f8; 
             margin: 0;
             padding: 0;
         }
@@ -27,7 +27,7 @@
         }
         h2 {
             margin-bottom: 20px;
-            color: #d63384; /* pink accent */
+            color: #d63384; 
         }
         #ddl_Product {
             width: 100%;
